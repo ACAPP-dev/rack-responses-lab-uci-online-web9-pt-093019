@@ -9,9 +9,10 @@ class Application
       binding.pry
 
       if Time.now.to_i < 12
-        resp.write "#{Time.now}"
+        resp.write "#{Time.now}\n"
         resp.write "Good Morning!"
       else
+        resp.write "#{Time.now}\n"
         resp.write "Good Afternoon!"
       end
 
