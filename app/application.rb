@@ -1,5 +1,5 @@
 require 'rack'
-requir 'pry'
+require 'pry'
 
 class Application
 
