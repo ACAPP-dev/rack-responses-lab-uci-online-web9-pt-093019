@@ -7,4 +7,3 @@ require_relative '../app/application'
   Pry.start
 end
 
-end
